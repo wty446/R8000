@@ -17,4 +17,5 @@ git clone https://github.com/fw876/helloworld package/helloworld
 git clone https://github.com/kenzok8/small package/small
 git clone https://github.com/kenzok8/openwrt-packages package/kenzo
 git clone https://github.com/kenzok8/small-package package/small-package
+git clone https://github.com/kenzok8/jell package/jell
 
