@@ -26,6 +26,9 @@ git clone https://github.com/coolsnowwolf/luci luci
 git clone https://github.com/kenzok8/openwrt-packages package/kenzo
 git clone https://github.com/kenzok8/small package/small
 git clone https://github.com/kenzok8/small-package package/small8
-
-
-
+git clone https://github.com/kenzok8/openwrt-packages package/openwrt-packages
+git clone https://github.com/tty228/luci-app-serverchan package/luci-app-serverchan
+rm -rf ./package/lean/luci-theme-argon 
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git /package/lean/luci-theme-argon
+rm -rf ./package/lean/luci-app-zerotier
+git clone https://github.com/alloneinfo/luci-app-zerotier ./package/lean/luci-app-zerotier
